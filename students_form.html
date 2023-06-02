@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #main{
+            background-color: rgb(96, 175, 175);
+
+        }
+        .roll{
+            color: rgb(168, 124, 124);
+        }
+    </style>
+</head>
+
+<body>
+    <center >
+        <form name="Registration" method="post" action="resume.html" bg-color="red" >
+            <table border="2" id="main" >
+                <tr>
+                    <th colspan="2"><b>Students Information</b> </th>
+                </tr>
+
+                <tr id="roll">
+                    <td>
+                        Roll_Number:
+                    </td>
+                    <td><input type="number"></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Enter Name:
+                    </td>
+                    <td><input type="text"></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Enter Branch:
+                    </td>
+                    <td><input type="text"></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Login:
+                    <td>
+                        <input type="button" value="login" />
+
+                    </td>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Choose Programming lang:
+                    <td>
+                        <input type="checkbox" value="login" />Java
+                        <input type="checkbox" value="login" />Python
+                        <input type="checkbox" value="login" />C++
+                        <input type="checkbox" value="login" />JS
+                    </td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date:
+                    </td>
+                    <td>
+                        <input type="date" value="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Check:
+                    </td>
+                    <td>
+                        <input type="radio" value="radio">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Range:
+                    </td>
+                    <td>
+                        <input type="range" value="Range" max="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password" name="pwd" size="15">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        Course:
+                    </td>
+                    <td>
+                        <p>
+                            <select name="acces" id="form">
+                                <option>B.Tech</option>
+                                <option>M.Tech</option>
+                                <option>B.A</option>
+                            </select>
+
+                        </p>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Comment:</td>
+                    <td><textarea name="textarea" id="space" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="cursor: pointer;">
+                        <input type="submit" value="submit" />
+                        <input type="reset" value="Rest" />
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
